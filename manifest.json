@@ -1,0 +1,17 @@
+{
+"name": "Untitled Application", 
+"scope": "/", 
+"start_url": "index.html", 
+"theme_color": "#000000", 
+"background_color": "#000000", 
+"short_name": "MyApp", 
+"author": "Author name", 
+"lang": "en", 
+"version": "1.0", 
+"display": "fullscreen", 
+"orientation": "any", 
+"icons": [{
+"src": "img/default-icon.png", 
+"sizes": "512x512"
+}]
+}

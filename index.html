@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>Untitled Application</title>
+<meta charset="utf-8">
+<meta name="Description" content=""> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="theme-color" content="#000000"/>
+<meta name="mobile-web-app-capable" content="yes">
+<noscript>Sorry, JavaScript is required!</noscript>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Untitled Application" />
+<meta name="generator" content="VisualNEO Web (20.9.12)" />
+<meta name="date" content="2020-10-08 12:18" />
+<meta name="version" content="1.0" />
+<meta name="copyright" content="Copyright 2020 Author name" />
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="img/default-icon.png" />
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/nzAnimate.min.css">
+<link rel="stylesheet" href="css/neoapp-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/default-icon.png" />
+</head>
+<body class="neobody" id="ng-app" ng-app="NeoApp" ng-cloak>
+<div ng-controller="NeoApp_CoreCtrl" ng-view ng-cloak id="ng-view" class="app-viewport[NAB._pageEffect]"></div>
+<script type="text/ng-template" id="NewPage">
+<div class="neopage" id="NewPage">
+<button id="PushButton1" type="button"  class="btn btn-default [NAB.PushButton1_effect]" ng-style="NAB.PushButton1_style" ng-hide="NAB.PushButton1_hidden" ng-disabled="NAB.PushButton1_disabled" ng-click="PushButton1_click()">button1</button>
+</div>
+</script>
+<script type="text/ng-template" id="NewDialog">
+<div id="DialogContainer1" class="modal-dialog modal-sm"><div class="modal-content" style="height:100%">
+</div></div>
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-touch.min.js"></script>
+<script src="js/angular-route.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/neoapp.min.js"></script>
+<script src="js/neoapp-ui.min.js"></script>
+<script src="service-worker.root.js"></script>
+<script src="js/main.js"></script>
+<script>if("serviceWorker"in navigator){
+if(navigator.serviceWorker.controller){console.log("Service worker running");
+}else{navigator.serviceWorker.register("service-worker.root.js",{scope:"./"}).then(function(reg){console.log("Service worker registered for scope: "+reg.scope);});}};
+</script>
+</body>
+</html>
